@@ -15,7 +15,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
+Lisence Plate: <?php print $car->$Lisence_plate ?>
 
+Brand: <?php print $car->$Brand ?>
+
+The model of the car: <?php print $car->$Model ?>
+
+The year of the mode: <?php print $car->$Model_year ?>
+
+The color: <?php print $car->$Color ?>
 
 </body>
 </html>
