@@ -22,6 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $Model =$_POST['mdl'];
     $Model_year =$_POST['mdlyr'];
     $Color =$_POST['clr'];
+    $car = new Automobile($Lisence_plate,$Brand,$Model,$Model_year,$Color);
 }
 ?>
 
